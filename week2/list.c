@@ -25,6 +25,7 @@ void free_ll(struct ll_node** lst)
         free(cur);
         cur = next;
     }
+    *lst = NULL;
 }
 
 int main()
