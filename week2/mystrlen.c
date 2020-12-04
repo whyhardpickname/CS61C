@@ -3,8 +3,7 @@
 int myStrlen(char *s)
 {
     int count = 0;
-    char *p = s;
-    while(*p++)
+    while(*s++)
     {
         count++;
     }
